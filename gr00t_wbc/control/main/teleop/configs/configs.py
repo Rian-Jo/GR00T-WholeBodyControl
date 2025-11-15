@@ -103,7 +103,7 @@ class BaseConfig(ArgsConfigTemplate):
     """Frequency of the simulation loop."""
 
     # Robot Configuration
-    enable_waist: bool = False
+    enable_waist: bool = True
     """Whether to include waist joints in IK."""
 
     with_hands: bool = True
